@@ -1,0 +1,10 @@
+required:
+    - type
+    - name
+properties:
+    geometry_type:
+        items:
+            enum:
+                - MultiPoint
+                - Point
+        additionalItems: false
